@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form</title>
+  <style>
+    .navbar {
+      background-color: rgb(246, 206, 103);
+      border-radius: 25px;
+    }
+
+    .navbar ul {
+      overflow: auto;
+    }
+
+    .navbar li {
+      float: left;
+      list-style: none;
+      margin: 10px 20px;
+    }
+
+    .navbar li a {
+      padding: 10px 10px;
+      text-decoration: none;
+      font-family: cursive;
+    }
+  </style>
+</head>
+
+<body style="background-color: black">
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a style="color: black; font-size: large" href="./index.html">About</a>
+        </li>
+        <li>
+          <a style="color: black; font-size: large" href="./Gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a style="color: black; font-size: large" href="./form.html">Form</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div align="center" style="color: rgb(246, 206, 103); font-family: cursive; font-size: large">
+    <form style="color: rgb(246, 206, 103); font-family: cursive; font-size: large" action="">
+      <h1 align="center" style="
+          color: rgb(246, 206, 103);
+          font-family: cursive;
+          font-size: xx-large;
+        ">
+        Registration form
+      </h1><br><br><br>
+
+      <label for="Student's name"> Student's name</label>
+      <input style="background-color:  rgb(246, 206, 103);" placeholder="Enter name" type="text" id="Student's name"
+        name="Student's name"><br>
+
+
+      <label for="Father's name"> Father's name</label>
+      <input style="background-color:  rgb(246, 206, 103);" placeholder="Enter  name" type="text" id="Father's name"
+        name="Father's name"><br>
+
+      <label for="Mother's name"></label> Mother's name
+      <input style="background-color:  rgb(246, 206, 103);" placeholder="Enter  name" type="text" id="Mother's name"
+        name="Mother's name"><br>
+      <label for="DOB">Date of birth</label></td>
+      <input style="background-color:  rgb(246, 206, 103);"
+        style="color: rgb(3, 3, 3); font-family: cursive; font-size: large" required type="date" id="DOB" name="DOB"
+        max="2006-07-02"><br>
+
+      <label for="Gender">Gender</label>
+      <input style="background-color:  rgb(246, 206, 103);" type="radio" id="Male" name="Gender" value="Male">
+      <label for="Male">Male</label>
+      <input style="background-color:  rgb(246, 206, 103);" type="radio" id="Female" name="Gender" value="Female">
+      <label for="Female">Female</label><br>
+
+
+      <label for="Email">Email address</label>
+      <input style="background-color:  rgb(246, 206, 103);" required type="email" id="email" name="email"><br><br>
+
+      <label for="Mobile number">Mobile number</label>
+      <input style="background-color:  rgb(246, 206, 103);" type="number" id="Mobile number" name="Mobile number"><br>
+
+      <label for="Address ">Address </label>
+      <textarea style="background-color:  rgb(246, 206, 103);" name="address" id="address"></textarea><br>
+
+      <label for="State">State</label>
+      <input style="background-color:  rgb(246, 206, 103);" type="text" id="State" name="State"><br>
+
+      <label for="City">City</label>
+      <input style="background-color:  rgb(246, 206, 103);" type="text" id="City" name="City"><br><br>
+      <button
+        style="color: rgb(3, 3, 3); background-color: rgb(246, 206, 103) ; font-family: cursive; font-size: large">
+        Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
